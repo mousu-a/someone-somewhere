@@ -1,0 +1,28 @@
+{
+  "name": "someone-somewhere",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bring a moment from someone, somewhere in the world, into your terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "greeting",
+    "world",
+    "timezone",
+    "terminal",
+    "cli",
+    "random"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mousu-a/someone-somewhere.git"
+  },
+  "author": "mousu-a",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mousu-a/someone-somewhere/issues"
+  },
+  "homepage": "https://github.com/mousu-a/someone-somewhere#readme"
+}
