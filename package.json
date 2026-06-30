@@ -5,7 +5,8 @@
   "description": "Bring a moment from someone, somewhere in the world, into your terminal.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "prettier --check . && eslint .",
+    "fix": "prettier --write . && eslint --fix ."
   },
   "keywords": [
     "greeting",
