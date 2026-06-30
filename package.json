@@ -4,6 +4,9 @@
   "type": "module",
   "description": "Bring a moment from someone, somewhere in the world, into your terminal.",
   "main": "index.js",
+  "bin": {
+    "someone-somewhere": "./index.js"
+  },
   "scripts": {
     "lint": "prettier --check . && eslint .",
     "fix": "prettier --write . && eslint --fix ."

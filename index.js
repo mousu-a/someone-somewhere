@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { DateTime } from "luxon";
 import { countries } from "./countries.js";
 import { TimeBucketMessage } from "./time_bucket_message.js";
