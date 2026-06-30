@@ -1,9 +1,12 @@
 {
   "name": "someone-somewhere",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Bring a moment from someone, somewhere in the world, into your terminal.",
   "main": "index.js",
+  "bin": {
+    "someone-somewhere": "./index.js"
+  },
   "scripts": {
     "lint": "prettier --check . && eslint .",
     "fix": "prettier --write . && eslint --fix ."
@@ -31,5 +34,8 @@
     "eslint": "^10.6.0",
     "globals": "^17.7.0",
     "prettier": "^3.9.3"
+  },
+  "dependencies": {
+    "luxon": "^3.7.2"
   }
 }
