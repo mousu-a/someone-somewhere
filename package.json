@@ -1,6 +1,6 @@
 {
   "name": "someone-somewhere",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Bring a moment from someone, somewhere in the world, into your terminal.",
   "main": "index.js",
